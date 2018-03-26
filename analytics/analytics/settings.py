@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'pt==dh0rp-a21*o7z6rg1c*7u^d=&1))&w_&u6fb0-!k3276n0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.analytics.w4pity.fr', 'analytics.w4pity.fr']
 
 
 # Application definition
