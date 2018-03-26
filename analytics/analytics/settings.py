@@ -121,5 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = '/var/www/generic/www/w4pity.fr/w4pity/static/'
+STATIC_ROOT = '/var/www/generic/www/analytics/analytics/static/'
 
