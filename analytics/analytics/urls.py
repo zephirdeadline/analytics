@@ -20,5 +20,6 @@ from django.urls import path, include
 from api import views
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     url(r'^anaytics/', include('api.urls'))
 ]
