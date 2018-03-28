@@ -21,5 +21,5 @@ from api import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^anaytics/', include('api.urls'))
+    url(r'^analytics/', include('api.urls'))
 ]
