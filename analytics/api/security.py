@@ -13,5 +13,5 @@ def check_password(func):
             Ip.objects.get(ip=ip)
             return func(*args, **kwargs)
         except:
-            return HttpResponse(json.dumps({"error": "You aren't authorized"}), content_type="application/json", status=401)
+            return HttpResponse(json.dumps({"error": "You aren't authorized", "you ip": args[0].META['REMOTE_ADDR']}), content_type="application/json", status=401)
     return check
